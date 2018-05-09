@@ -1,0 +1,7 @@
+# Week-12
+
+#How does Internet work
+#Jorge Montalvan
+
+The exchange of information in a network with millions of connected computers, it is essential. There is a unique way to identify each computer, and Without some form of direction, you can not establish links between computers, resources and systems.The sequence of numbers that identifies a computer on the Internet is called an IP address (Internet Protocol), and any digital information packet in circulation (emails, web pages, etc.) contains the IP address of the computers of origin and destination.The sequence consists of four numbers (between 0 and 255) separated by points. An example of an IP address could be 8.8.8.8, these numbers corresponding to a country,or a specific domain and the machine itself. When any computer connects to the Internet, the communication protocol dynamically assigns a temporary IP address. Most Internet users do not know your IP address,so you use this number to find resources and machines.It would be difficult to have to control these sequences of numbers. For this reason, it is usual for an IP address to be assigned on the Internet aN unique name, the name is called "domain name". The correspondence between IP and the domain name is stored in computers that are constantly updated, It's called DNS (Domain Name Serves).These computers are distributed all over the world, and are always online.The domain name allows you to identify the country by the letters at the end and so on.
+

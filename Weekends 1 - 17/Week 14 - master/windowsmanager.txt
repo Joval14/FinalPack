@@ -1,0 +1,59 @@
+# Week14
+
+How Windows Manager works:
+
+Window managers are part of the software that is responsible for showing a graphical user interface, with which you can easily communicate with the system. They are, for example, KDE, Gnome, XFCE ... They are a broader set of software, among which are the aforementioned window managers.
+
+In Windows we only have one window manager, DWM, while in GNU / Linux we can choose the window manager that best suits our needs.Window manager are a fundamental part in the systems for the implementation of any GUI with multiple windows, since they are responsible in a general way, to organize and decorate the windows, in GNU / Linux we have the possibility of changing the window manager that most Like, this is just one of the many advantages of GNU / Linux; In comparison to other operating systems, for example, (windows, mac osx) that have a window manager installed by default.
+
+How to select the window manager by default
+
+In order to change the window manager by default, just run the following command in the terminal:
+
+$ sudo update-alternatives --config x-window-manager
+
+When launching the above command we will obtain the list of window managers installed and available in our system.
+Then, to finish just need to type the selection number of the window manager to be defined by default. In this simple way we can select the window manager by default.
+
+Another way is by installing a program. My Unity is a program that allows a very thorough configuration of the Unity interface. Although it is not pre-installed in the system, it is very easy to install because in fact it can be found in the repositories.
+
+We can install My Unity from the Software Center or from the terminal running:
+
+$ sudo apt-get install myunity
+
+Some examples to install another GUI are:
+Kde:
+For this we will open a terminal and execute the following command:
+sudo add-apt-repository ppa: kubuntu-ppa / backports
+sudo apt-get update
+sudo apt-get install kubuntu-desktop
+
+
+GNOME 3.0:
+
+sudo apt-get install gnome-shell 
+or use the gnome ppa:
+sudo add-apt-repository ppa: gnome3-team / gnome3
+sudo apt-get update
+udo apt-get install gnome-shell
+
+
+To install the XFCE version:
+
+sudo add-apt-repository ppa: xubuntu-dev / xfce-4.10
+sudo apt-get update
+sudo apt-get dist-upgrade
+sudo apt-get install xubuntu-desktop
+
+ENLIGHTMENT V.E.17:
+command:
+
+     sudo apt-add-repository ppa: efl / trunk
+     sudo apt-get update
+     sudo apt-get install e17
+
+Thoughts:
+
+Your desk will be something really personal, but, applying new window managers makes it more pleasant, and you can also configure the behavior of some LInux tools, and all of this with executing commands that can be found in different repositories.
+
+
